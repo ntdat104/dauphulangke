@@ -1,0 +1,202 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.clear{
+    clear: both;
+}
+
+/* Start Header */
+
+.header{
+    width: 100%;
+}
+
+
+/* Contact */
+.contact{
+    width: 100%;
+    background-color: #282828;
+}
+.contact_content{
+    width: 80%;
+    margin: 0px auto;
+    padding: 10px 0px;
+}
+.contact_content i{
+    color: white;
+}
+.contact_content span{
+    color: white;
+    margin: 0px 10px;
+}
+
+
+/* logo */
+.logo{
+    width: 100%;
+    background-color: white;
+    padding: 50px 0px;
+}
+.logo_content{
+    width: 100%;
+    text-align: center;
+}
+.logo_content h1{
+    font-size: 50px;
+}
+.logo_content h1 a{
+    text-decoration: none;
+    color: black;
+}
+.logo_content h2{
+    font-weight: normal;
+    margin-top: 10px;
+}
+
+/* nav */
+.nav{
+    text-align: center;
+}
+.nav ul{
+    width: 80%;
+    margin: 0px auto;
+    list-style-type:none;
+    padding: 20px 0px;
+    border-top: 1px solid Gainsboro;
+}
+.nav li{
+    display: inline-block;
+    margin: 0px 15px;
+}
+.nav li a{
+    text-decoration: none;
+    color: black;
+    padding-bottom: 5px;
+    font-weight: bold;
+}
+.nav li a:hover{
+    border-bottom: 2px solid black;
+    transition: 0.3s;
+}
+.active{
+    border-bottom: 2px solid black;
+}
+
+/* End Header */
+
+/* Start Main */
+.main{
+    width: 100%;
+    background-image: url("./img/white-waves.png");
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* background */
+.background{
+    width: 70%;
+    margin: 0px auto;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("./img/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+.background span{
+    position: relative;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 20px;
+}
+.background span i{
+    margin-right: 10px;
+}
+.background h1{
+    width: 80%;
+    text-align: center;
+    color:white;
+    font-size: 50px;
+    font-weight: normal;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.background h2{
+    text-align: center;
+    position: relative;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.background h2 a{
+    text-decoration: none;
+    color:white;
+    font-weight: normal;
+    border: 2px solid white;
+    padding: 10px 20px;
+}
+.background h2 a:hover{
+    background-color: white;
+    color: black;
+}
+
+/* main_content */
+.main_content{
+    width: 70%;
+    margin: 0px auto;
+}
+.content_1{
+    width: 100%;
+    margin-top: 20px;
+    height: 400px;
+}
+.content_1_left{
+    width: 50%;
+    float: left;
+    background-color: burlywood;
+    height: 100%;
+}
+.content_1_left h1{
+    text-align: center;
+    color: brown;
+    margin: 20px 0px;
+}
+.content_1_left ul{
+    text-align: center;
+    list-style-type: none;
+}
+.content_1_left ul li{
+    font-size: 20px;
+    margin-top: 10px;
+}
+.content_1_left ul li a{
+    text-decoration: none;
+    color: black;
+}
+.content_1_right{
+    width: 50%;
+    float: right;
+}
+.iframe{
+    width: 100%;
+    height: 400px;
+}
+/* End Main */
+
+
+/* Start Footer */
+.footer{
+    width: 100%;
+    text-align: center;
+    background-color: palegoldenrod;
+    padding: 50px 0px;
+}
+.footer h1{
+    color: black;
+}
+/* End Footer */
