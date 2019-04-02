@@ -1,3 +1,4 @@
+@media screen and (min-width: 1024px){
 *{
     margin: 0px;
     padding: 0px;
@@ -104,17 +105,6 @@
     background-repeat: no-repeat;
     height: 500px;
 }
-.background span{
-    position: relative;
-    top: 50%;
-    left: 40%;
-    transform: translate(-50%,-50%);
-    color: white;
-    font-size: 20px;
-}
-.background span i{
-    margin-right: 10px;
-}
 .background h1{
     width: 80%;
     text-align: center;
@@ -200,3 +190,181 @@
     color: black;
 }
 /* End Footer */
+}
+
+@media screen and (max-width: 1023px){
+    *{
+        margin: 0px;
+        padding: 0px;
+        font-family: "Times New Roman", Times, serif;
+    }
+    .clear{
+        clear: both;
+    }
+    .header{
+        width: 100%;
+    }
+    .contact{
+        width: 100%;
+        background-color: #282828;
+    }
+    .contact_content{
+        width: 100%;
+        padding: 10px 0px;
+        text-align: center;
+    }
+    .contact_content i{
+        color: white;
+        font-size: 14px;
+    margin: 0px 5px;
+    }
+    .contact_content span{
+        color: white;
+        font-size: 14px;
+    }
+    .logo{
+        width: 100%;
+        background-color: white;
+    }
+    .logo_content{
+        width: 100%;
+        text-align: center;
+    }
+    .logo_content h1{
+        font-size: 28px;
+    }
+    .logo_content h1 a{
+        text-decoration: none;
+        color: black;
+    }
+    .logo_content h2{
+        font-weight: normal;
+        font-size: 14px;
+        margin-top: 5px;
+    }
+    .nav{
+        text-align: center;
+        background-color: palegoldenrod;
+    }
+    .nav ul{
+        width: 100%;
+        margin: 5px auto 0px auto;
+        list-style-type:none;
+        padding: 5px 0px;
+        border-top: 1px solid Gainsboro;
+        border-bottom: 1px solid Gainsboro;
+    }
+    .nav li{
+        display: inline-block;
+        margin: 0px 2px;
+    }
+    .nav li a{
+        text-decoration: none;
+        color: black;
+        padding-bottom: 5px;
+        font-weight: bold;
+        font-size: 14px;
+    }
+    .nav li a:hover{
+        border-bottom: 2px solid black;
+        transition: 0.3s;
+    }
+    .main{
+        width: 100%;
+        background-color: white;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    
+    /* background */
+    .background{
+        width: 100%;
+        margin: 0px auto;
+        background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("./img/background.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 250px;
+    }
+    .background h1{
+        width: 90%;
+        text-align: center;
+        color:white;
+        font-size: 28px;
+        font-weight: normal;
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+    .background h2{
+        text-align: center;
+        position: relative;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        font-size: 14px;
+    }
+    .background h2 a{
+        text-decoration: none;
+        color:white;
+        font-weight: normal;
+        border: 2px solid white;
+        padding: 10px 20px;
+    }
+    .background h2 a:hover{
+        background-color: white;
+        color: black;
+    }
+    .main_content{
+        width: 100%;
+    }
+    .content_1{
+        width: 100%;
+        margin-top: 5px;
+    }
+    .content_1_left{
+        width: 100%;
+        background-color: burlywood;
+    }
+    .content_1_left h1{
+        text-align: center;
+        color: brown;
+        padding: 10px 0px;
+        font-size: 28px;
+    }
+    .content_1_left ul{
+        text-align: center;
+        list-style-type: none;
+    }
+    .content_1_left ul li{
+        font-size: 14px;
+        margin-top: 10px;
+    }
+    .content_1_left ul li a{
+        text-decoration: none;
+        color: black;
+    }
+    .content_1_right{
+        margin-top: 5px;
+        width: 100%;
+    }
+    .iframe{
+        width: 100%;
+        height: 200px;
+    }
+    .footer{
+        width: 100%;
+        text-align: center;
+        background-color: palegoldenrod;
+        padding: 20px 0px;
+    }
+    .footer h1{
+        width: 100%;
+        margin: 0px auto;
+        color: black;
+        font-size: 28px;
+    }
+    .clear{
+        display: none;
+    }
+}
