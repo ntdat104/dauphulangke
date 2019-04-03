@@ -242,7 +242,7 @@
         margin: 0px auto;
     }
     .main_content h1{
-        margin: 5px 0px;
+        margin: 10px 0px;
         font-size: 28px;
     }
     .main_content img{
@@ -254,14 +254,14 @@
     }
     .main_content p{
         font-size: 14px;
-        margin: 5px 0px;
+        margin: 10px 0px;
     }
     .main_content ul{
         list-style-type: none;
     }
     .main_content ul li{
         font-size: 14px;
-        margin: 5px 0px;
+        margin: 10px 0px;
     }
     .footer{
         width: 100%;
