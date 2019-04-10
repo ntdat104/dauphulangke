@@ -252,7 +252,7 @@
     .contact_content i{
         color: white;
         font-size: 14px;
-    margin: 0px 5px;
+        margin: 0px 5px;
     }
     .contact_content span{
         color: white;
@@ -268,6 +268,7 @@
     }
     .logo_content h1{
         font-size: 28px;
+        margin: 5px 0px;
     }
     .logo_content h1 a{
         text-decoration: none;
@@ -276,7 +277,7 @@
     .logo_content h2{
         font-weight: bold;
         font-size: 14px;
-        margin-top: 5px;
+        margin: 5px 0px;
     }
     .nav{
         text-align: center;
